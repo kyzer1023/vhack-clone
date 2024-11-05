@@ -1,0 +1,15 @@
+.social-icon:hover {
+  -webkit-animation: fa-spin .4s linear;
+  -moz-animation: fa-spin .4s linear;
+  -o-animation: fa-spin .4s linear;
+  animation: fa-spin .4s linear;
+}
+
+@keyframes fa-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} 

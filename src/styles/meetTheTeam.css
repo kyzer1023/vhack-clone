@@ -1,0 +1,18 @@
+.category-button {
+  position: relative;
+}
+
+.category-button::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background-color: #64CCC5;
+  transition: width 0.3s ease;
+}
+
+.category-button:hover::after {
+  width: 100%;
+} 
